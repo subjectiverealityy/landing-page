@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8"/>
+<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+<title>Zorevia – ace your JAMB exams 🚀</title>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet"/>
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+ 
+<!-- background styling -->
+<div class="bg-canvas">
+  <div class="grid-lines"></div>
+  <div class="orb orb1"></div>
+  <div class="orb orb2"></div>
+  <div class="orb orb3"></div>
+</div>
+
+<!-- page content -->
+<div class="page">
+
+<!-- NAV -->
+<nav>
+  <div class="logo">
+    <img src="https://res.cloudinary.com/dp1eobk1g/image/upload/v1778365902/zo-png1_la1ciq.png" alt="Zorevia" class="logo-image"/>
+    <span style="font-family:'Inter',sans-serif;font-size:17px;font-weight:700;color:#6748F6;letter-spacing:-0.4px;">Zorevia</span>
+  </div>
+  <a href="#how-it-works" class="nav-badge">How it works</a>
+</nav>
+
+<!-- HERO -->
+<div class="hero">
+  <div class="hero-badge">✨ Launching soon</div>
+  <h1>Your Personal AI Tutor for<br><span>acing JAMB exams</span></h1>
+  <p>Zorevia's AI tests your understanding of every topic, identifies your weak spots, and builds a personalized study plan based on how many days you have left before your exam.</p>
+  <div class="form-wrap">
+    <div class="form-row">
+      <input type="email" id="heroEmail" placeholder="your@email.com"/>
+      <button class="btn-join" onclick="handleJoin('heroEmail','heroSuccess')">Join waitlist</button>
+    </div>
+    <div id="heroSuccess" class="success-msg">🎉 You're on the list! We'll notify you when we launch.</div>
+    <p class="privacy">No spam. Unsubscribe anytime.</p>
+  </div>
+</div>
+
+<!-- SCREENS -->
+<div class="screens-section reveal">
+  <div class="section-label">See it in action</div>
+  <h2>Built for JAMB aspirants</h2>
+  <p>A smarter way to study and understand.</p>
+  <div class="screens-grid">
+    <div class="screen-wrap">
+      <img class="screen-img" src="https://res.cloudinary.com/dp1eobk1g/image/upload/v1778364595/Screen_22_atxlne.png" alt="Topic assessment"/>
+      <div class="screen-caption">Assessment</div>
+    </div>
+    <div class="screen-wrap center">
+      <img class="screen-img" src="https://res.cloudinary.com/dp1eobk1g/image/upload/v1778364595/Screen_21_iufr4y.png" alt="AI study plan"/>
+      <div class="screen-caption">AI study</div>
+    </div>
+    <div class="screen-wrap">
+      <img class="screen-img" src="https://res.cloudinary.com/dp1eobk1g/image/upload/v1778364595/Screen_26_ipqo0b.png" alt="Progress tracking"/>
+      <div class="screen-caption">Progress tracking</div>
+    </div>
+  </div>
+</div>
+
+<!-- HOW IT WORKS -->
+<div class="section reveal" id="how-it-works">
+  <div class="section-label">How it works</div>
+  <h2>From signup to exam-ready</h2>
+  <p class="section-sub">Three simple steps to a study plan that actually fits your life.</p>
+  <div class="steps">
+    <div class="step">
+      <div class="step-num">1</div>
+      <div>
+        <div class="step-title">Tell us your exam date</div>
+        <div class="step-desc">Let Zorevia know how many days you have left before your JAMB exam so we can calibrate your plan.</div>
+      </div>
+    </div>
+    <div class="step">
+      <div class="step-num">2</div>
+      <div>
+        <div class="step-title">Take a quick topic assessment</div>
+        <div class="step-desc">Our AI asks you targeted questions across the JAMB subjects you select to gauge exactly where you stand.</div>
+      </div>
+    </div>
+    <div class="step">
+      <div class="step-num">3</div>
+      <div>
+        <div class="step-title">Get your personalized study plan</div>
+        <div class="step-desc">Receive a day-to-day plan focused on your weak areas, that is adapted as you improve over time.</div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- CTA BOTTOM -->
+<div style="padding:0 24px;" class="reveal">
+  <div class="cta-bottom">
+    <h2>Don't leave your JAMB to chance</h2>
+    <p>Join thousands of students preparing smarter. Get early access and a founding member discount when we launch.</p>
+    <div class="cta-form">
+      <input type="email" id="ctaEmail" placeholder="your@email.com"/>
+      <button class="btn-cta" onclick="handleJoin('ctaEmail','ctaSuccess')">Get early access</button>
+    </div>
+    <div id="ctaSuccess" class="cta-success">🎉 You're in! We'll be in touch soon.</div>
+    <p class="cta-privacy">No spam. Unsubscribe anytime.</p>
+  </div>
+</div>
+
+<!-- FOOTER -->
+<footer>
+  <div class="footer-logo">Zorevia</div>
+  <div class="footer-text">© 2026 Zorevia. Built for JAMB aspirants.</div>
+</footer>
+
+</div>
+
+<script>
+
+</script>
+</body>
+</html>
