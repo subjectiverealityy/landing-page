@@ -104,6 +104,13 @@ footer{border-top:1px solid #E5E5E5;padding:24px 40px;display:flex;justify-conte
 .footer-logo{font-size:15px;font-weight:700;color:#6748F6;}
 .footer-text{font-size:13px;color:#737373;}
 
+.social-links{display:flex;gap:12px;}
+.social-links a{display:inline-flex;align-items:center;justify-content:center;width:32px;height:32px;border-radius:50%;background:rgba(103,72,246,0.05);transition:background 0.2s;}
+.social-links a:hover{background:rgba(103,72,246,0.1);}
+.social-links img{width:16px;height:16px;filter:invert(34%) sepia(100%) grayscale(20%) brightness(90%);}
+
+@media(max-width: 600px){footer{flex-direction:column;align-items:center;text-align:center;} .footer-text{margin-top:12px;}}
+
 /* ── SCROLL REVEAL ── */
 .reveal{opacity:0;transform:translateY(32px);transition:opacity 0.65s ease,transform 0.65s ease;}
 .reveal.visible{opacity:1;transform:translateY(0);}
